@@ -235,7 +235,6 @@ export class MenuId {
 	static readonly ChatExecuteSecondary = new MenuId('ChatExecuteSecondary');
 	static readonly ChatInput = new MenuId('ChatInput');
 	static readonly ChatInputSide = new MenuId('ChatInputSide');
-	static readonly ChatModelPicker = new MenuId('ChatModelPicker');
 	static readonly ChatModePicker = new MenuId('ChatModePicker');
 	static readonly ChatEditingWidgetToolbar = new MenuId('ChatEditingWidgetToolbar');
 	static readonly ChatEditingEditorContent = new MenuId('ChatEditingEditorContent');
@@ -247,13 +246,17 @@ export class MenuId {
 	static readonly ChatInputSymbolAttachmentContext = new MenuId('ChatInputSymbolAttachmentContext');
 	static readonly ChatInlineResourceAnchorContext = new MenuId('ChatInlineResourceAnchorContext');
 	static readonly ChatInlineSymbolAnchorContext = new MenuId('ChatInlineSymbolAnchorContext');
+	static readonly ChatMessageCheckpoint: MenuId = new MenuId('ChatMessageCheckpoint');
+	static readonly ChatMessageRestoreCheckpoint: MenuId = new MenuId('ChatMessageRestoreCheckpoint');
 	static readonly ChatEditingCodeBlockContext = new MenuId('ChatEditingCodeBlockContext');
 	static readonly ChatTitleBarMenu = new MenuId('ChatTitleBarMenu');
 	static readonly ChatAttachmentsContext = new MenuId('ChatAttachmentsContext');
 	static readonly ChatToolOutputResourceToolbar = new MenuId('ChatToolOutputResourceToolbar');
 	static readonly ChatTextEditorMenu = new MenuId('ChatTextEditorMenu');
-	static readonly ChatTerminalMenu = new MenuId('ChatTerminalMenu');
 	static readonly ChatToolOutputResourceContext = new MenuId('ChatToolOutputResourceContext');
+	static readonly ChatMultiDiffContext = new MenuId('ChatMultiDiffContext');
+	static readonly ChatSessionsMenu = new MenuId('ChatSessionsMenu');
+	static readonly ChatConfirmationMenu = new MenuId('ChatConfirmationMenu');
 	static readonly AccessibleView = new MenuId('AccessibleView');
 	static readonly MultiDiffEditorFileToolbar = new MenuId('MultiDiffEditorFileToolbar');
 	static readonly DiffEditorHunkToolbar = new MenuId('DiffEditorHunkToolbar');
